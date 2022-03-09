@@ -58,9 +58,14 @@
 #   print(a)
 #   a += 1
 
+# Segurança da Informação com Python - DIO
+
 # PING
-import os
+import os ## Importa o módulo OS
 
-ip_ou_host = input("Digite o IP ou Host: ")
+print("#" * 60) ## Mostra # para identação
 
-os.system('ping -n 6 {}'.format(ip_ou_host))
+ip_ou_host = input("Digite o IP ou Host: ") ## Cria variável para receber IP ou Host
+print("-" * 60) ## Mostra # para identação
+os.system('ping -n 6 {}'.format(ip_ou_host)) ## Chamamos system do módulo OS para fazer o PING
+print("-" * 60) ## Mostra # para identação
